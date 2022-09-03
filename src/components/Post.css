@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.post{
+    max-width: 1000px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 30px;
+}
+.post__Image{
+    object-fit: contain;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.post__text{
+    font-weight: normal;
+    padding: 20px;
+    /* font-family: 'Oxygen Mono', monospace; */
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.post__header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.post__header>h3{
+    font-family: 'Anonymous Pro', monospace;
+}
+.post__header>h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.post__avatar{
+    margin-right: 5px;
+}
+.post__commentBox{
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid lightgray;
+}
+.post__button{
+    flex: 0;
+    border: none;
+    border-top: 1px solid lightgray;
+    color: #6082a3;
+}
+
+.post__comments{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.post__strong{
+    margin-right: 5px;
+}
